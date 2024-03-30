@@ -11,10 +11,10 @@ if(!isset($_SESSION['username'])){
 
 $ambildata = mysqli_query($koneksi,"SELECT * FROM tbl_buku");
 $data1 = mysqli_fetch_array($ambildata);
-
+var_dump($data1);
 
 ?>
-  
+
 <!doctype html>
 <html lang="en">
   <head>
